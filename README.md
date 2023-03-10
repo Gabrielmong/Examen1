@@ -11,3 +11,20 @@ Este proyecto es una aplicación web que permite la gestión de una biblioteca. 
 - Entity Framework Core
 - Bootstrap
 - HTML
+
+## Appsettings.json
+
+```json
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "ConnectionStrings": {
+    "Default": "Server=localhost\\sqlexpress;Database=[database];Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=true;"
+  },
+  "AllowedHosts": "*"
+}
+```
