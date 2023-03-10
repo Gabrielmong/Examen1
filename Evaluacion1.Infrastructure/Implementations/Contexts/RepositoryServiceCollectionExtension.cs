@@ -1,5 +1,5 @@
 ﻿using Evaluacion1.Infrastructure.Contracts.Context;
-using Evaluacion1.Infrastructure.Implementations.Contexts;
+using Evaluacion1.Infrastructure.Contracts.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 

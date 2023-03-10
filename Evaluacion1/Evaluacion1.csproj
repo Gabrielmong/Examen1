@@ -6,4 +6,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Evaluacion1.Infrastructure\Evaluacion1.Infrastructure.csproj" />
+    <ProjectReference Include="..\Evaluacion1.Models\Evaluacion1.Models.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,4 +1,5 @@
 ﻿using Evaluacion1.Infrastructure.Contracts.Context;
+using Evaluacion1.Models.EntityModels;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -11,8 +12,12 @@ namespace Evaluacion1.Infrastructure.Implementations.Contexts {
 
         public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options) : base(options) {
         }
-        public DbSet<Student> Students { get; set; }
+        public DbSet<Author> Authors { get; set; }
 
-        public DbSet<DBPokemon> Pokemons { get; set; }
+        public DbSet<Book> Books { get; set; }
+
+        public DbSet<Category> Categories { get; set; }
+
+        public DbSet<Cart> Carts { get; set; }
     }
 }
