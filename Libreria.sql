@@ -1,4 +1,4 @@
-Crear la base de datos Libreria
+Crear la base de datos Libreria y esjecutar los siguinetes comandos para crear las tablas:
 
 Use Libreria
 Go
