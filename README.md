@@ -1,7 +1,5 @@
 # Examen Parcial I - Programación Avanzada Web
 
-[TOC]
-
 ## Descripción
 
 Este proyecto es una aplicación web que permite la gestión de una biblioteca. La aplicación permite la gestión de libros, su autor y categoría
